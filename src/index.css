@@ -19,15 +19,14 @@ code {
 section{
   place-items: center;
   text-align: center;
-  font-size: 40px;
-  border: 5px solid black;
-  border-radius: 25px;
-  padding: 50px;
+  font-size: 50px;
+  border: 4px solid black;
+  border-radius: 75px;
+  padding: 25px;
   background-color: aliceblue;
 }
-p{
-  color: darkcyan;;
-}
-button.button{
-  color: black;
+.button:hover{
+  top: -5px;
+  transition: all .2s ease-in-out;
+  border-bottom: 2px solid black;
 }
